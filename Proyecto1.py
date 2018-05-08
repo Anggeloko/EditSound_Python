@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from scipy.fftpack import fft
 import wave
 import pyaudio
-import sounddevice as sd
+import sounddevice as sd #activa el dispositivo de audio
 import numpy as np
 from itertools import izip_longest #herramientas de operatibilidad
 from sklearn import preprocessing #procesamiento de datos
